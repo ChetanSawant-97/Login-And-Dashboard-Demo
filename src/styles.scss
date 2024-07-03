@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+$blackWash : #0B0C10;
+$infinity : #1F2822;
+$ilverPolish : #C5C6C7;
+$poseiden : #66FCF1;
+$keppel : #45A29E;
+
+
+body{
+    background-color: $infinity;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}

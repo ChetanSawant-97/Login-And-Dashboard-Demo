@@ -1,0 +1,20 @@
+
+<div class="login-card w-1/4 p-4 rounded-xl" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);" >
+    <div class="flex flex-row-reverse w-full" style="position: absolute; right:3%; top:5%">
+        <button (click)="closeForm()">
+            <ng-icon class="scoials-icon" name="bootstrapX" style="background-color: #C5C6C7; font-size: 1.5em; border-radius: 50%;"></ng-icon>
+        </button>
+    </div>
+    <div class="flex w-full pb-2">
+        <h1 class="m-auto text-2xl text-white">Login</h1>
+    </div>
+    <form class="form-group flex flex-col" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <input class="my-1.5 py-1 rounded-md px-1" name="email" type="email" formControlName="email" placeholder="Email">
+        <input class="my-1.5 py-1 rounded-md px-1" type="password" formControlName="password" placeholder="Password">
+        <button class="mt-4 rounded-md px-2 text-white" style="background-color: #0E46A3;">Submit</button>
+    </form>
+    <div class="card-title text-white">
+        <span>You don't have an account? <a routerLink="/signup">Sign up</a></span>
+    </div>
+
+</div>

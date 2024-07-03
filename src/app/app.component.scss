@@ -1,0 +1,23 @@
+$blackWash : #0B0C10;
+$infinity : #1F2822;
+$ilverPolish : #C5C6C7;
+$poseiden : #66FCF1;
+$keppel : #45A29E;
+$dmSans : "DM Sans", sans-serif;
+
+.app-footer{
+    background-color: $blackWash;
+    position: relative;
+    bottom: 0px;
+}
+
+a{
+    color: white;
+    font-family: $dmSans;
+}
+
+.scoials-icon{
+    color: white;
+    width: calc(100%/5);
+    font-size: 1.4em;
+}
